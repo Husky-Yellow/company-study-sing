@@ -20,5 +20,5 @@ registerApplication({
   app: () => System.import("@vue-mf/rate-dogs"),
   activeWhen: "/rate-doggos",
 });
-
+debugger;
 start();

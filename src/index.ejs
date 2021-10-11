@@ -6,7 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vue Microfrontends</title>
   <meta name="importmap-type" content="systemjs-importmap" />
-  <script type="systemjs-importmap" src="https://storage.googleapis.com/vue.microfrontends.app/importmap.json"></script>
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@vue-mf/root-config": "https://vue.microfrontends.app/root-config/96eb412d2c738a6816f59966a94bb3c5125f3550/vue-mf-root-config.js",
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.1/lib/system/single-spa.min.js",
+        "@vue-mf/styleguide": "https://vue.microfrontends.app/styleguide/566ace2deeba4ca56b38fca7fa52d4d89ac32634/vue-mf-styleguide.js",
+        "@vue-mf/navbar": "https://vue.microfrontends.app/navbar/7abae7253d4561348ee80c91a55093f67965bf8d/js/app.js",
+        "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js",
+        "@vue-mf/dogs-dashboard": "https://vue.microfrontends.app/dogs-dashboard/d5295971a1b151ec3a61781c5762cde029ffde04/js/app.js",
+        "@vue-mf/rate-dogs": "https://vue.microfrontends.app/rate-dogs/632dc064ab4e89699aaddc30396e61c9df1a42c4/js/app.js",
+        "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
+        "@vue-mf/root-config/": "https://vue.microfrontends.app/root-config/96eb412d2c738a6816f59966a94bb3c5125f3550/",
+        "@vue-mf/navbar/": "https://vue.microfrontends.app/navbar/7abae7253d4561348ee80c91a55093f67965bf8d/js/",
+        "@vue-mf/dogs-dashboard/": "https://vue.microfrontends.app/dogs-dashboard/d5295971a1b151ec3a61781c5762cde029ffde04/js/",
+        "@vue-mf/styleguide/": "https://vue.microfrontends.app/styleguide/566ace2deeba4ca56b38fca7fa52d4d89ac32634/",
+        "@vue-mf/rate-dogs/": "https://vue.microfrontends.app/rate-dogs/632dc064ab4e89699aaddc30396e61c9df1a42c4/js/"
+      }
+    }
+  </script>
   <% if (isLocal) { %>
   <script type="systemjs-importmap">
     {
