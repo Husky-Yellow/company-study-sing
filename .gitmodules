@@ -1,0 +1,3 @@
+[submodule "single-spa"]
+	path = single-spa
+	url = https://gitee.com/HuSky-Yellow/study-single-spa.git
