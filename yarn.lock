@@ -1884,6 +1884,13 @@
   "resolved" "https://npm.yc345.tv/binary-extensions/-/binary-extensions-2.2.0.tgz"
   "version" "2.2.0"
 
+"bindings@^1.5.0":
+  "integrity" "sha1-EDU8npRTNLwFEabZCzj7x8nFBN8="
+  "resolved" "https://registry.nlark.com/bindings/download/bindings-1.5.0.tgz"
+  "version" "1.5.0"
+  dependencies:
+    "file-uri-to-path" "1.0.0"
+
 "bluebird@^3.5.5":
   "integrity" "sha1-nyKcFb4nJFT/qXOs4NvueaGww28="
   "resolved" "https://npm.yc345.tv/bluebird/-/bluebird-3.7.2.tgz"
@@ -3596,6 +3603,11 @@
   "version" "5.0.1"
   dependencies:
     "flat-cache" "^2.0.1"
+
+"file-uri-to-path@1.0.0":
+  "integrity" "sha1-VTp7hEb/b2hDWcRF8eN6BdrMM90="
+  "resolved" "https://registry.npm.taobao.org/file-uri-to-path/download/file-uri-to-path-1.0.0.tgz"
+  "version" "1.0.0"
 
 "fill-range@^4.0.0":
   "integrity" "sha1-1USBHUKPmOsGpj3EAtJAPDKMOPc="
@@ -5661,6 +5673,11 @@
   "integrity" "sha1-FjDEKyJR/4HiooPelqVJfqkuXg0="
   "resolved" "https://npm.yc345.tv/mute-stream/-/mute-stream-0.0.8.tgz"
   "version" "0.0.8"
+
+"nan@^2.12.1":
+  "integrity" "sha1-PzSkc/8Y4VwbVia2KQO1rW5mX+4="
+  "resolved" "https://registry.nlark.com/nan/download/nan-2.15.0.tgz"
+  "version" "2.15.0"
 
 "nanomatch@^1.2.9":
   "integrity" "sha1-uHqKpPwN6P5r6IiVs4mD/yZb0Rk="
